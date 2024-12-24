@@ -1,0 +1,16 @@
+const Demo = () => {
+    return (
+      <div className="p-8 bg-gray-800 min-h-[300px]">
+        <div className="bg-gray-700 p-4 rounded-lg">
+          <div className="w-full max-w-xl">
+            <div className="flex items-center gap-2">
+              <span className="text-purple-500 text-sm font-medium">divider</span>
+            </div>
+            <div className="h-2 w-full bg-gray-200 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+  
+  export default Demo;

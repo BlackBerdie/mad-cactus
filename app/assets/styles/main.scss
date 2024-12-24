@@ -1,2 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+
 :root {
-}
+    --font-main: 'Anonymous Pro', monospace;
+    --color-white: #FFFFFF;
+    --color-white5: #FFFFFF0D;
+    --color-white10: #FFFFFF1A;
+    --color-white25: #FFFFFF40;
+    --color-white50: #FFFFFF80;
+    --color-red: #FF382C;
+    --color-red50: #FF382C80;
+    --color-grey: #151516;
+    --color-black: #000000;
+  }
+
+  body {
+    font-family: var(--font-main);
+    color: var(--color-white);
+  }
+  
+  body {
+    color: #000; 
+    background-color: #fff; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
